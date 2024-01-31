@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e891e512d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+           <nav>
+              <img src="images/logo.jpg" alt="" class="logo">
+              <ul id="sidemenu">
+                 <li><a href="#header">Home</a></li>
+                 <li><a href="#About">About</a></li>
+                 <li><a href="#Services">Services</a></li>
+                 <li><a href="#portfolio">Portfolio</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                 <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+              </ul>
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+              <p>Web & App Developer </p>
+              <h1>Hi, I'm <span>John</span><br>Wachira From Kenya</h1>
+           </div>
+        </div>
+     </div>
+
+</div>
+<!---------about------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/code1.jpeg" alt="user imamge">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm excited to share my journey and experiences in the dynamic and ever-evolving field of design.
+                     I am John Wachira, a passionate and dedicated individual with expertise in web development, app development, databases and UI/UX design</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>App Development</span>Building Android/ios apps-Java and Kotlin<br></li>
+                        <li><span>Web Development</span> Web/App Development-Python,Java and PHP<br></li>
+                        <li><span>Databases</span>MySQL<br></li>
+                        <li><span>UI/UX</span>Designing Web/App interfaces<br></li>  
+                        
+
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2018-current</span>working with NCA<br></li>
+                        <li><span>2017-2020</span> worked with Kenya power<br></li>
+                        <li><span>2016-2017</span>internship in safaricom<br></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span>UI/UX Design train<br></li>
+                        <li><span>2016</span> Masters in Informatics<br></li>
+                        <li><span>2014</span>Bachelor of science in Informatics<br></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------Services------>
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p2>As a web developer, my journey began with crafting visually appealing and user-friendly websites. 
+                    Each project was an opportunity to blend aesthetics with functionality, 
+                    ensuring a seamless and delightful user experience.</p2>
+                     <a href="#Learn more"></a>
+            </div>
+
+             <div>
+                <i class="fa-brands fa-app-store"></i>
+                
+                <h2>App Development</h2>
+                <p2>The evolution of the digital landscape led me to explore the realm of app development.
+                     Creating intuitive and engaging mobile applications became my forte. 
+                     I delved into the intricacies of user interactions, aiming to provide not just a service but an immersive journey for the users. 
+                    Crafting interfaces that balance simplicity and sophistication has been a rewarding challenge.</p2>
+                     <a href="#Learn more"></a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                
+                <h2>UI/UX Design</h2>
+                <p2>UI/UX design has been at the heart of my professional growth. 
+                    Understanding user behavior, conducting thorough research,
+                    and translating insights into designs that resonate with the audience became a passion. 
+                    The user interface is not just about aesthetics; it's a language that communicates with the users, 
+                    guiding them effortlessly through the digital experience.</p2>
+                     <a href="#Learn more"></a>
+            </div>
+
+
+          
+        </div>
+
+
+    </div>
+
+</div>
+
+<!------portfolio/mywork-->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/app1.webp" alt="work 1">
+            <div class="layer">
+                <h3>Social Medial App</h3>
+                <p>The app connects you to talented people around the world. Click to learn more
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/app2.jpeg" alt="work 2">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you to talented people around the world.Click to learn more
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/app12.jpeg" alt="work 3">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you to talented people around the world. Click to learn more</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more </a>
+
+
+</div>
+</div>
+
+
+<!--------contact-->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane-top"></i>wachirajohn08@gmailcom</p>
+            <p><i class="fa-solid fa-phone"></i>0746147134</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            
+        </div>
+        <a href="images/DCYF End User Screener Survey lyn.pdf" downlaod class="btn btn2">Download Cv</a>
+        <div class="contact-right">
+            <form onsubmit="sendEmail(); reset(); return false">
+                <input type="text" name="Name" id="name" placeholder="Your Name" required >
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" id="message"  placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+
+        </div>
+    </div>
+
+    
+</div>
+      <div class="Copyright">
+          <p>Copyright © 2024<br> John's Personal Profile . Designed by John Wachira</p>
+      </div>
+</div>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+    function sendEmail(){
+        let name = document.getElementById('name').value;
+        let email = document.getElementById('email').value;
+        let message = document.getElementById('message').value;
+
+        let body = "Name: " + name + "<br>  email: " + email + "<br>  Message: " + message
+
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "wachirajohn008@gmail.com",
+            Password : '744267A12DAC050C5A8E7BC3F32855779758',
+            To : 'wachirajohn008@gmail.com',
+            From : "wachirajohn008@gmail.com",
+            Subject : "An Inquiry From Portfolio",
+            Body :  body
+        }).then(
+        message => alert(message)
+        );
+    }    
+</script>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+    
+</body>
+</html>
